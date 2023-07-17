@@ -3,7 +3,7 @@ entries:
   kubes3:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-07-17T16:41:32.80620482+02:00"
+    created: "2023-07-17T16:49:41.91798258+02:00"
     description: KubeS3 Helm chart for Kubernetes
     digest: 77dd33485eaf4ff2b508354fc0d78c6175e49057c93796ee2a38ccb153062eb4
     name: kubes3
@@ -14,12 +14,12 @@ entries:
   nextcloud-k8s:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-07-17T16:41:32.814704446+02:00"
+    created: "2023-07-17T16:49:41.924014757+02:00"
     description: Deploy nextcloud on Kubernetes (with MySQL).
-    digest: e6e273fc2a6468f8a3d4503bad4ab2e94646b375c6d2cbfaca45b362d9d79d53
+    digest: 85950a90e325215ebc7c79eb2e8b094492aefc0784a8049c2e6d9dca313af6a4
     name: nextcloud-k8s
     type: application
     urls:
     - nextcloud-k8s-0.1.0.tgz
     version: 0.1.0
-generated: "2023-07-17T16:41:32.784183335+02:00"
+generated: "2023-07-17T16:49:41.911003485+02:00"
