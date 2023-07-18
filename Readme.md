@@ -4,7 +4,7 @@ Using GitHub Pages for hosting them.
 
 ## Charts
 1. [KubeS3](https://github.com/xamma/KubeS3)
-2. nextcloud-k8s
+2. nextcloud-k8s (v1 with MySQL, v2 with MySQL+Redis)
 
 ## Usage
 ```
