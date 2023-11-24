@@ -12,10 +12,14 @@ helm repo add xammahelm https://xamma.github.io/helm-charts
 helm repo update
 helm search repo xammahelm
 helm install kubes3-release xammahelm/kubes3 -n NAMESPACE --create-namespace
-helm install kubes3-release xammahelm/kubes3 --set key=value --namespace my-namespace
+helm install kubes3-release xammahelm/kubes3 --set key=value --namespace my-namespace --version=x.x.x
 helm uninstall my-webapp -n my-namespace
 helm repo remove REPONAME
 ```
 
 If a new Chart is added to this Repo: ```helm repo index docs```.  
 
+Other important flags:
+```
+--versions --devel
+```
