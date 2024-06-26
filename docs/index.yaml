@@ -3,7 +3,7 @@ entries:
   knative:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2024-06-12T15:15:51.814669639+02:00"
+    created: "2024-06-26T15:41:27.298294302+02:00"
     description: A Helm chart for Kubernetes
     digest: de25f64ab76f4436da5a03e257f4e78c1e90508ee201259e88a413cc806673ce
     name: knative
@@ -14,7 +14,7 @@ entries:
   kubes3:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-06-12T15:15:51.884425622+02:00"
+    created: "2024-06-26T15:41:27.376048482+02:00"
     description: KubeS3 Helm chart for Kubernetes
     digest: e6f269cf4dd006998982607d785c4f072c987bbb59ec4548eff7cc9ac2efaf61
     name: kubes3
@@ -24,7 +24,7 @@ entries:
     version: 0.3.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-06-12T15:15:51.862557316+02:00"
+    created: "2024-06-26T15:41:27.338819467+02:00"
     description: KubeS3 Helm chart for Kubernetes
     digest: 3a8c835c5a74a569e630bffa0e784f1c9b631a918a506f371250b2f7d984003f
     name: kubes3
@@ -34,7 +34,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-06-12T15:15:51.84210855+02:00"
+    created: "2024-06-26T15:41:27.316168406+02:00"
     description: KubeS3 Helm chart for Kubernetes
     digest: 77dd33485eaf4ff2b508354fc0d78c6175e49057c93796ee2a38ccb153062eb4
     name: kubes3
@@ -45,7 +45,7 @@ entries:
   nextcloud-k8s:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-06-12T15:15:51.941842013+02:00"
+    created: "2024-06-26T15:41:27.418885588+02:00"
     description: Deploy nextcloud on Kubernetes (with MySQL and Redis).
     digest: f8f02d01aada96be24f91ad224e54d10047a98c6509aebd6996aaad893267499
     name: nextcloud-k8s
@@ -55,7 +55,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-06-12T15:15:51.907006455+02:00"
+    created: "2024-06-26T15:41:27.39921948+02:00"
     description: Deploy nextcloud on Kubernetes (with MySQL).
     digest: 85950a90e325215ebc7c79eb2e8b094492aefc0784a8049c2e6d9dca313af6a4
     name: nextcloud-k8s
@@ -63,4 +63,15 @@ entries:
     urls:
     - nextcloud-k8s-0.1.0.tgz
     version: 0.1.0
-generated: "2024-06-12T15:15:51.806416986+02:00"
+  webserver-controller:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2024-06-26T15:41:27.424915674+02:00"
+    description: A Helm chart for Kubernetes
+    digest: 152d97946f52b6f0af4c0e55dee9a6757c57da6a2304bbccfa290a00f2e1e933
+    name: webserver-controller
+    type: application
+    urls:
+    - webserver-controller-0.1.0.tgz
+    version: 0.1.0
+generated: "2024-06-26T15:41:27.257436879+02:00"
