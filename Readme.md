@@ -7,6 +7,7 @@ Using GitHub Pages for hosting them.
 2. nextcloud-k8s (v1 with MySQL, v2 with MySQL+Redis)
 3. knative operator
 4. webserver-controller (custom controller)
+5. presetter (controller for resourcepresets)
 
 ## Usage
 ```
