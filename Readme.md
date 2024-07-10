@@ -8,6 +8,7 @@ Using GitHub Pages for hosting them.
 3. knative operator
 4. webserver-controller (custom controller)
 5. presetter (controller for resourcepresets)
+6. OSTicket PHP app rewritten for K8s setups (SaaS)
 
 ## Usage
 ```
