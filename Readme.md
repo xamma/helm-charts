@@ -9,6 +9,7 @@ Using GitHub Pages for hosting them.
 4. webserver-controller (custom controller)
 5. presetter (controller for resourcepresets)
 6. OSTicket PHP app rewritten for K8s setups (SaaS)
+7. Kubevirt (for one-click deployment with GitOps)
 
 ## Usage
 ```
