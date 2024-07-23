@@ -10,6 +10,7 @@ Using GitHub Pages for hosting them.
 5. presetter (controller for resourcepresets)
 6. OSTicket PHP app rewritten for K8s setups (SaaS)
 7. Kubevirt (for one-click deployment with GitOps)
+8. Apikube (demo app for k8s)
 
 ## Usage
 ```
