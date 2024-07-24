@@ -3,7 +3,7 @@ entries:
   apikube:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2024-07-24T08:34:35.156342798+02:00"
+    created: "2024-07-24T08:39:50.677129098+02:00"
     description: Example microservice for demos on kubernetes.
     digest: 871c5146c478373462b3e0ba059c9987e16c4669c061443da3d7fb4261f11416
     name: apikube
@@ -14,7 +14,7 @@ entries:
   knative:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2024-07-24T08:34:35.195628246+02:00"
+    created: "2024-07-24T08:39:50.687776142+02:00"
     description: A Helm chart for Kubernetes
     digest: de25f64ab76f4436da5a03e257f4e78c1e90508ee201259e88a413cc806673ce
     name: knative
@@ -25,7 +25,7 @@ entries:
   kubes3:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-07-24T08:34:35.268402227+02:00"
+    created: "2024-07-24T08:39:50.710156699+02:00"
     description: KubeS3 Helm chart for Kubernetes
     digest: e6f269cf4dd006998982607d785c4f072c987bbb59ec4548eff7cc9ac2efaf61
     name: kubes3
@@ -35,7 +35,7 @@ entries:
     version: 0.3.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-07-24T08:34:35.246844674+02:00"
+    created: "2024-07-24T08:39:50.7023526+02:00"
     description: KubeS3 Helm chart for Kubernetes
     digest: 3a8c835c5a74a569e630bffa0e784f1c9b631a918a506f371250b2f7d984003f
     name: kubes3
@@ -45,7 +45,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-07-24T08:34:35.221671932+02:00"
+    created: "2024-07-24T08:39:50.695380929+02:00"
     description: KubeS3 Helm chart for Kubernetes
     digest: 77dd33485eaf4ff2b508354fc0d78c6175e49057c93796ee2a38ccb153062eb4
     name: kubes3
@@ -56,7 +56,7 @@ entries:
   kubevirt:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2024-07-24T08:34:35.298127252+02:00"
+    created: "2024-07-24T08:39:50.723989741+02:00"
     description: A Helm chart for Kubernetes
     digest: 5bc221352cc9d4438693c6fd51da5bcd4a1d51311d88564f6e66231c37afd9c2
     name: kubevirt
@@ -67,7 +67,7 @@ entries:
   nextcloud-k8s:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-07-24T08:34:35.343805665+02:00"
+    created: "2024-07-24T08:39:50.737086165+02:00"
     description: Deploy nextcloud on Kubernetes (with MySQL and Redis).
     digest: f8f02d01aada96be24f91ad224e54d10047a98c6509aebd6996aaad893267499
     name: nextcloud-k8s
@@ -77,7 +77,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-07-24T08:34:35.320571334+02:00"
+    created: "2024-07-24T08:39:50.730449297+02:00"
     description: Deploy nextcloud on Kubernetes (with MySQL).
     digest: 85950a90e325215ebc7c79eb2e8b094492aefc0784a8049c2e6d9dca313af6a4
     name: nextcloud-k8s
@@ -88,9 +88,9 @@ entries:
   osticket:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2024-07-24T08:34:35.354637209+02:00"
+    created: "2024-07-24T08:39:50.744964233+02:00"
     description: Deploy osticket as SaaS on K8s.
-    digest: 44277e6c65d297c8bba6af4448b98fbf68d7d05c438ae9f22b50f8cce411f4d1
+    digest: 75135290e7475b6ad66d650303515d4a0536b23a9fe4e1f70ce4e47ec463d97e
     name: osticket
     type: application
     urls:
@@ -99,7 +99,7 @@ entries:
   presetter:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2024-07-24T08:34:35.373564822+02:00"
+    created: "2024-07-24T08:39:50.751540078+02:00"
     description: A k8s controller that adds resourcepresets to your deployments.
     digest: e9abb0e7ef106ab92fad735d4cc1d9b6ac95bc63de6e75c1f6a7737cdb3c4901
     name: presetter
@@ -110,7 +110,7 @@ entries:
   webserver-controller:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2024-07-24T08:34:35.395939825+02:00"
+    created: "2024-07-24T08:39:50.758527881+02:00"
     description: A Helm chart for Kubernetes
     digest: cb4eedfe64fe92b5d077271cb55c9583a5ae68a4133ff022d56efbfd83c6b56a
     name: webserver-controller
@@ -118,4 +118,4 @@ entries:
     urls:
     - webserver-controller-0.1.0.tgz
     version: 0.1.0
-generated: "2024-07-24T08:34:35.13672111+02:00"
+generated: "2024-07-24T08:39:50.669773071+02:00"
