@@ -3,129 +3,139 @@ entries:
   apikube:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2024-08-05T16:52:56.944141254+02:00"
+    created: "2024-11-18T10:08:04.106474432Z"
+    description: Example microservice for demos on kubernetes.
+    digest: 84d5091abae28cf907fd5076d6298cbf73fdd18c0985d9dde4cebcf3bd5bdd08
+    name: apikube
+    type: application
+    urls:
+    - https://xamma/helm-charts.git/apikube-1.0.0.tgz
+    version: 1.0.0
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2024-11-18T10:08:04.10619359Z"
     description: Example microservice for demos on kubernetes.
     digest: df76d2b62e605ddfac775807735c8ae8d0f8322654aede80cd804c5124016bbe
     name: apikube
     type: application
     urls:
-    - apikube-0.2.0.tgz
+    - https://xamma/helm-charts.git/apikube-0.2.0.tgz
     version: 0.2.0
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2024-08-05T16:52:56.935052105+02:00"
+    created: "2024-11-18T10:08:04.105917556Z"
     description: Example microservice for demos on kubernetes.
     digest: 3981b10b4710245e8379eeb8e94ab02d0dd858f995999d5872859ba1b53de215
     name: apikube
     type: application
     urls:
-    - apikube-0.1.0.tgz
+    - https://xamma/helm-charts.git/apikube-0.1.0.tgz
     version: 0.1.0
   knative:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2024-08-05T16:52:56.969573476+02:00"
+    created: "2024-11-18T10:08:04.107788967Z"
     description: A Helm chart for Kubernetes
     digest: de25f64ab76f4436da5a03e257f4e78c1e90508ee201259e88a413cc806673ce
     name: knative
     type: application
     urls:
-    - knative-1.14.3.tgz
+    - https://xamma/helm-charts.git/knative-1.14.3.tgz
     version: 1.14.3
   kubes3:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-08-05T16:52:57.047909601+02:00"
+    created: "2024-11-18T10:08:04.109852648Z"
     description: KubeS3 Helm chart for Kubernetes
     digest: e6f269cf4dd006998982607d785c4f072c987bbb59ec4548eff7cc9ac2efaf61
     name: kubes3
     type: application
     urls:
-    - kubes3-0.3.0.tgz
+    - https://xamma/helm-charts.git/kubes3-0.3.0.tgz
     version: 0.3.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-08-05T16:52:57.014049371+02:00"
+    created: "2024-11-18T10:08:04.108775131Z"
     description: KubeS3 Helm chart for Kubernetes
     digest: 3a8c835c5a74a569e630bffa0e784f1c9b631a918a506f371250b2f7d984003f
     name: kubes3
     type: application
     urls:
-    - kubes3-0.2.0.tgz
+    - https://xamma/helm-charts.git/kubes3-0.2.0.tgz
     version: 0.2.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-08-05T16:52:56.990981726+02:00"
+    created: "2024-11-18T10:08:04.108186927Z"
     description: KubeS3 Helm chart for Kubernetes
     digest: 77dd33485eaf4ff2b508354fc0d78c6175e49057c93796ee2a38ccb153062eb4
     name: kubes3
     type: application
     urls:
-    - kubes3-0.1.0.tgz
+    - https://xamma/helm-charts.git/kubes3-0.1.0.tgz
     version: 0.1.0
   kubevirt:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2024-08-05T16:52:57.069965243+02:00"
+    created: "2024-11-18T10:08:04.111034556Z"
     description: A Helm chart for Kubernetes
     digest: 5bc221352cc9d4438693c6fd51da5bcd4a1d51311d88564f6e66231c37afd9c2
     name: kubevirt
     type: application
     urls:
-    - kubevirt-0.1.0.tgz
+    - https://xamma/helm-charts.git/kubevirt-0.1.0.tgz
     version: 0.1.0
   nextcloud-k8s:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-08-05T16:52:57.114264121+02:00"
+    created: "2024-11-18T10:08:04.111917999Z"
     description: Deploy nextcloud on Kubernetes (with MySQL and Redis).
     digest: f8f02d01aada96be24f91ad224e54d10047a98c6509aebd6996aaad893267499
     name: nextcloud-k8s
     type: application
     urls:
-    - nextcloud-k8s-0.2.0.tgz
+    - https://xamma/helm-charts.git/nextcloud-k8s-0.2.0.tgz
     version: 0.2.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-08-05T16:52:57.090919973+02:00"
+    created: "2024-11-18T10:08:04.11153703Z"
     description: Deploy nextcloud on Kubernetes (with MySQL).
     digest: 85950a90e325215ebc7c79eb2e8b094492aefc0784a8049c2e6d9dca313af6a4
     name: nextcloud-k8s
     type: application
     urls:
-    - nextcloud-k8s-0.1.0.tgz
+    - https://xamma/helm-charts.git/nextcloud-k8s-0.1.0.tgz
     version: 0.1.0
   osticket:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2024-08-05T16:52:57.148376562+02:00"
+    created: "2024-11-18T10:08:04.112270354Z"
     description: Deploy osticket as SaaS on K8s.
     digest: 75135290e7475b6ad66d650303515d4a0536b23a9fe4e1f70ce4e47ec463d97e
     name: osticket
     type: application
     urls:
-    - osticket-0.1.0.tgz
+    - https://xamma/helm-charts.git/osticket-0.1.0.tgz
     version: 0.1.0
   presetter:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2024-08-05T16:52:57.178675533+02:00"
+    created: "2024-11-18T10:08:04.112520018Z"
     description: A k8s controller that adds resourcepresets to your deployments.
     digest: e9abb0e7ef106ab92fad735d4cc1d9b6ac95bc63de6e75c1f6a7737cdb3c4901
     name: presetter
     type: application
     urls:
-    - presetter-0.1.0.tgz
+    - https://xamma/helm-charts.git/presetter-0.1.0.tgz
     version: 0.1.0
   webserver-controller:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2024-08-05T16:52:57.204591864+02:00"
+    created: "2024-11-18T10:08:04.112764152Z"
     description: A Helm chart for Kubernetes
     digest: cb4eedfe64fe92b5d077271cb55c9583a5ae68a4133ff022d56efbfd83c6b56a
     name: webserver-controller
     type: application
     urls:
-    - webserver-controller-0.1.0.tgz
+    - https://xamma/helm-charts.git/webserver-controller-0.1.0.tgz
     version: 0.1.0
-generated: "2024-08-05T16:52:56.913414094+02:00"
+generated: "2024-11-18T10:08:04.105509978Z"
