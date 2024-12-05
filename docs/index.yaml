@@ -3,7 +3,7 @@ entries:
   apikube:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2024-11-18T10:40:48.748351984Z"
+    created: "2024-12-05T09:12:20.045192874+01:00"
     description: Example microservice for demos on kubernetes.
     digest: 50043dd5bb0aef3d6cfaa0c42bea420e4acd5be99c0130cb4133b0cccf74dfe7
     name: apikube
@@ -13,7 +13,7 @@ entries:
     version: 1.0.0
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2024-11-18T10:40:48.748081925Z"
+    created: "2024-12-05T09:12:20.039203639+01:00"
     description: Example microservice for demos on kubernetes.
     digest: df76d2b62e605ddfac775807735c8ae8d0f8322654aede80cd804c5124016bbe
     name: apikube
@@ -23,7 +23,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2024-11-18T10:40:48.747838917Z"
+    created: "2024-12-05T09:12:20.015732228+01:00"
     description: Example microservice for demos on kubernetes.
     digest: 3981b10b4710245e8379eeb8e94ab02d0dd858f995999d5872859ba1b53de215
     name: apikube
@@ -34,7 +34,7 @@ entries:
   knative:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2024-11-18T10:40:48.750593001Z"
+    created: "2024-12-05T09:12:20.067462219+01:00"
     description: A Helm chart for Kubernetes
     digest: de25f64ab76f4436da5a03e257f4e78c1e90508ee201259e88a413cc806673ce
     name: knative
@@ -45,7 +45,7 @@ entries:
   kubes3:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-11-18T10:40:48.751894946Z"
+    created: "2024-12-05T09:12:20.149368139+01:00"
     description: KubeS3 Helm chart for Kubernetes
     digest: e6f269cf4dd006998982607d785c4f072c987bbb59ec4548eff7cc9ac2efaf61
     name: kubes3
@@ -55,7 +55,7 @@ entries:
     version: 0.3.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-11-18T10:40:48.751492918Z"
+    created: "2024-12-05T09:12:20.123753793+01:00"
     description: KubeS3 Helm chart for Kubernetes
     digest: 3a8c835c5a74a569e630bffa0e784f1c9b631a918a506f371250b2f7d984003f
     name: kubes3
@@ -65,7 +65,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-11-18T10:40:48.751062126Z"
+    created: "2024-12-05T09:12:20.096089555+01:00"
     description: KubeS3 Helm chart for Kubernetes
     digest: 77dd33485eaf4ff2b508354fc0d78c6175e49057c93796ee2a38ccb153062eb4
     name: kubes3
@@ -76,7 +76,7 @@ entries:
   kubevirt:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2024-11-18T10:40:48.753045907Z"
+    created: "2024-12-05T09:12:20.200661829+01:00"
     description: A Helm chart for Kubernetes
     digest: 5bc221352cc9d4438693c6fd51da5bcd4a1d51311d88564f6e66231c37afd9c2
     name: kubevirt
@@ -84,10 +84,33 @@ entries:
     urls:
     - kubevirt-0.1.0.tgz
     version: 0.1.0
+  nextcloud-ep:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2024-12-05T09:12:20.23798729+01:00"
+    dependencies:
+    - condition: nginx.enabled
+      name: nginx
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: '*.*.*'
+    description: NC EP helm chart
+    digest: 3be5c3ff8952357b1831d8d9a27aba90396a7b1265699ffe3fb9a29df5934eef
+    keywords:
+    - latest
+    - nextcloud
+    - helm-chart
+    - open-source
+    - cloud
+    - enterprise
+    name: nextcloud-ep
+    type: application
+    urls:
+    - nextcloud-ep-3.0.0.tgz
+    version: 3.0.0
   nextcloud-k8s:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-11-18T10:40:48.753743763Z"
+    created: "2024-12-05T09:12:20.281881171+01:00"
     description: Deploy nextcloud on Kubernetes (with MySQL and Redis).
     digest: f8f02d01aada96be24f91ad224e54d10047a98c6509aebd6996aaad893267499
     name: nextcloud-k8s
@@ -97,7 +120,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-11-18T10:40:48.753368004Z"
+    created: "2024-12-05T09:12:20.262877725+01:00"
     description: Deploy nextcloud on Kubernetes (with MySQL).
     digest: 85950a90e325215ebc7c79eb2e8b094492aefc0784a8049c2e6d9dca313af6a4
     name: nextcloud-k8s
@@ -108,7 +131,7 @@ entries:
   osticket:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2024-11-18T10:40:48.754098672Z"
+    created: "2024-12-05T09:12:20.299951374+01:00"
     description: Deploy osticket as SaaS on K8s.
     digest: 75135290e7475b6ad66d650303515d4a0536b23a9fe4e1f70ce4e47ec463d97e
     name: osticket
@@ -119,7 +142,7 @@ entries:
   presetter:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2024-11-18T10:40:48.754350287Z"
+    created: "2024-12-05T09:12:20.320410459+01:00"
     description: A k8s controller that adds resourcepresets to your deployments.
     digest: e9abb0e7ef106ab92fad735d4cc1d9b6ac95bc63de6e75c1f6a7737cdb3c4901
     name: presetter
@@ -130,7 +153,7 @@ entries:
   webserver-controller:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2024-11-18T10:40:48.754592243Z"
+    created: "2024-12-05T09:12:20.346925557+01:00"
     description: A Helm chart for Kubernetes
     digest: cb4eedfe64fe92b5d077271cb55c9583a5ae68a4133ff022d56efbfd83c6b56a
     name: webserver-controller
@@ -138,4 +161,4 @@ entries:
     urls:
     - webserver-controller-0.1.0.tgz
     version: 0.1.0
-generated: "2024-11-18T10:40:48.747451306Z"
+generated: "2024-12-05T09:12:19.994575573+01:00"
