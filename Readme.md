@@ -13,6 +13,7 @@ Using GitHub Pages for hosting them.
 8. Apikube (demo app for k8s)
 9. stackit-sa-validator (checks validity date of tokens and keys in stackIT)
 10. K8ccess (AccessController for Partners to Kubernetes)
+11. paperless-ngx
 
 ## Usage
 ```
