@@ -14,6 +14,7 @@ Using GitHub Pages for hosting them.
 9. stackit-sa-validator (checks validity date of tokens and keys in stackIT)
 10. K8ccess (AccessController for Partners to Kubernetes)
 11. paperless-ngx
+12. Langflow IDE
 
 ## Usage
 ```
