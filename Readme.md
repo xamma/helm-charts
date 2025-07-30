@@ -15,6 +15,7 @@ Using GitHub Pages for hosting them.
 10. K8ccess (AccessController for Partners to Kubernetes)
 11. paperless-ngx
 12. Langflow IDE
+13. Copyparty fileserver
 
 ## Usage
 ```
