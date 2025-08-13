@@ -16,6 +16,7 @@ Using GitHub Pages for hosting them.
 11. paperless-ngx
 12. Langflow IDE
 13. Copyparty fileserver
+14. Passphoria (diceware webapp)
 
 ## Usage
 ```
