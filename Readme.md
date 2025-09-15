@@ -17,6 +17,7 @@ Using GitHub Pages for hosting them.
 12. Langflow IDE
 13. Copyparty fileserver
 14. Passphoria (diceware webapp)
+15. Tabula (CSV webviewer)
 
 ## Usage
 ```
