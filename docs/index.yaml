@@ -3,7 +3,7 @@ entries:
   apikube:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2025-11-26T08:20:34.232791431Z"
+    created: "2025-11-26T08:24:04.407277471Z"
     description: Example microservice for demos on kubernetes.
     digest: 50043dd5bb0aef3d6cfaa0c42bea420e4acd5be99c0130cb4133b0cccf74dfe7
     name: apikube
@@ -13,7 +13,7 @@ entries:
     version: 1.0.0
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2025-11-26T08:20:34.232537125Z"
+    created: "2025-11-26T08:24:04.40699839Z"
     description: Example microservice for demos on kubernetes.
     digest: df76d2b62e605ddfac775807735c8ae8d0f8322654aede80cd804c5124016bbe
     name: apikube
@@ -23,7 +23,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2025-11-26T08:20:34.232300262Z"
+    created: "2025-11-26T08:24:04.406660157Z"
     description: Example microservice for demos on kubernetes.
     digest: 3981b10b4710245e8379eeb8e94ab02d0dd858f995999d5872859ba1b53de215
     name: apikube
@@ -34,7 +34,7 @@ entries:
   copyparty:
   - apiVersion: v2
     appVersion: latest
-    created: "2025-11-26T08:20:34.236097263Z"
+    created: "2025-11-26T08:24:04.409979872Z"
     description: Helm chart for copyparty fileserver
     digest: d05a924dc3098a8c4115494fbfd69ca41c98f8f03b5dcc5a6a670ec2773fd96b
     maintainers:
@@ -48,7 +48,7 @@ entries:
   k8ccess:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2025-11-26T08:20:34.236543117Z"
+    created: "2025-11-26T08:24:04.410400699Z"
     description: A Helm chart to distribute the project k8ccess
     digest: ec10412f5c2e30e428e6580dc6906f05380184cd66c4e4372c8f98c938868056
     icon: https://example.com/icon.png
@@ -60,7 +60,7 @@ entries:
   knative:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2025-11-26T08:20:34.237834603Z"
+    created: "2025-11-26T08:24:04.412519852Z"
     description: A Helm chart for Kubernetes
     digest: de25f64ab76f4436da5a03e257f4e78c1e90508ee201259e88a413cc806673ce
     name: knative
@@ -71,7 +71,7 @@ entries:
   kubes3:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-11-26T08:20:34.239043845Z"
+    created: "2025-11-26T08:24:04.413731116Z"
     description: KubeS3 Helm chart for Kubernetes
     digest: e6f269cf4dd006998982607d785c4f072c987bbb59ec4548eff7cc9ac2efaf61
     name: kubes3
@@ -81,7 +81,7 @@ entries:
     version: 0.3.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-11-26T08:20:34.23864004Z"
+    created: "2025-11-26T08:24:04.413341889Z"
     description: KubeS3 Helm chart for Kubernetes
     digest: 3a8c835c5a74a569e630bffa0e784f1c9b631a918a506f371250b2f7d984003f
     name: kubes3
@@ -91,7 +91,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-11-26T08:20:34.23824972Z"
+    created: "2025-11-26T08:24:04.412943334Z"
     description: KubeS3 Helm chart for Kubernetes
     digest: 77dd33485eaf4ff2b508354fc0d78c6175e49057c93796ee2a38ccb153062eb4
     name: kubes3
@@ -102,7 +102,7 @@ entries:
   kubevirt:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2025-11-26T08:20:34.241144667Z"
+    created: "2025-11-26T08:24:04.414962167Z"
     description: A Helm chart for Kubernetes
     digest: 5bc221352cc9d4438693c6fd51da5bcd4a1d51311d88564f6e66231c37afd9c2
     name: kubevirt
@@ -113,7 +113,7 @@ entries:
   langflow-ide:
   - apiVersion: v2
     appVersion: latest
-    created: "2025-11-26T08:20:34.241794142Z"
+    created: "2025-11-26T08:24:04.415663147Z"
     description: Helm chart for Langflow IDE
     digest: 1992cce6d8bae1a8d19107b8335a10dc97d6cdcabc5b4942457031507f1e54bc
     maintainers:
@@ -127,7 +127,7 @@ entries:
   nextcloud-ep:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2025-11-26T08:20:34.245484475Z"
+    created: "2025-11-26T08:24:04.42001038Z"
     dependencies:
     - condition: nginx.enabled
       name: nginx
@@ -150,7 +150,7 @@ entries:
   nextcloud-k8s:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-11-26T08:20:34.246862642Z"
+    created: "2025-11-26T08:24:04.420681445Z"
     description: Deploy nextcloud on Kubernetes (with MySQL and Redis).
     digest: f8f02d01aada96be24f91ad224e54d10047a98c6509aebd6996aaad893267499
     name: nextcloud-k8s
@@ -160,7 +160,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-11-26T08:20:34.246372866Z"
+    created: "2025-11-26T08:24:04.420312565Z"
     description: Deploy nextcloud on Kubernetes (with MySQL).
     digest: 85950a90e325215ebc7c79eb2e8b094492aefc0784a8049c2e6d9dca313af6a4
     name: nextcloud-k8s
@@ -171,7 +171,7 @@ entries:
   osticket:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2025-11-26T08:20:34.247222395Z"
+    created: "2025-11-26T08:24:04.421010289Z"
     description: Deploy osticket as SaaS on K8s.
     digest: 75135290e7475b6ad66d650303515d4a0536b23a9fe4e1f70ce4e47ec463d97e
     name: osticket
@@ -182,7 +182,7 @@ entries:
   paperless-ngx:
   - apiVersion: v2
     appVersion: 2.8.6
-    created: "2025-11-26T08:20:34.247531133Z"
+    created: "2025-11-26T08:24:04.421288128Z"
     description: Helm chart for Paperless-ngx document management system
     digest: 9846f84dc271f005650d86dc496314e1f2fe14052a6f7c799bde050e9256e166
     name: paperless-ngx
@@ -193,7 +193,20 @@ entries:
   passphoria:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2025-11-26T08:20:34.247784607Z"
+    created: "2025-11-26T08:24:04.421828879Z"
+    description: Helm Chart for passphoria, a diceware implementation.
+    digest: 227a08f7b30fbfb9f349e7f40f19b53d7492f5a6e08656c0f876589d0fc3260f
+    maintainers:
+    - email: max@xammaops.win
+      name: xamma
+    name: passphoria
+    type: application
+    urls:
+    - passphoria-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2025-11-26T08:24:04.421551511Z"
     description: Helm Chart for passphoria, a diceware implementation.
     digest: 06e04f41e2c20e60453d3cfe23f1fd1665cda20cddf5a9fd993e2cf6f5545619
     maintainers:
@@ -207,7 +220,7 @@ entries:
   presetter:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2025-11-26T08:20:34.248276176Z"
+    created: "2025-11-26T08:24:04.422329926Z"
     description: A k8s controller that adds resourcepresets to your deployments.
     digest: 34c4734ddaaa729526b963ed40f6a388f087d94a0c8389e2c5d9a200cb3e1ef2
     name: presetter
@@ -217,7 +230,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2025-11-26T08:20:34.248024355Z"
+    created: "2025-11-26T08:24:04.422089035Z"
     description: A k8s controller that adds resourcepresets to your deployments.
     digest: e9abb0e7ef106ab92fad735d4cc1d9b6ac95bc63de6e75c1f6a7737cdb3c4901
     name: presetter
@@ -228,7 +241,7 @@ entries:
   stackit-sa-validator:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2025-11-26T08:20:34.248490567Z"
+    created: "2025-11-26T08:24:04.422553393Z"
     description: A kubernetes native integration for checking validity dates of keys
       and tokens in a stackIT project.
     digest: bcbca3810ac4fc39cccd39673ca85b1c2b068a6c3322dc840998c19d90b0e3f3
@@ -240,7 +253,7 @@ entries:
   tabula:
   - apiVersion: v2
     appVersion: latest
-    created: "2025-11-26T08:20:34.249603279Z"
+    created: "2025-11-26T08:24:04.423727207Z"
     description: Helm Chart for tabula, a csv web viewer.
     digest: ff5ae6746e57d0f815410c69e5086e77ef7f3568ee7f53abc8539eb593d25231
     maintainers:
@@ -253,7 +266,7 @@ entries:
     version: 1.2.0
   - apiVersion: v2
     appVersion: latest
-    created: "2025-11-26T08:20:34.249310371Z"
+    created: "2025-11-26T08:24:04.423401478Z"
     description: Helm Chart for tabula, a csv web viewer.
     digest: a7df040b212c9dc13f0fd3843c6ad262538aed5a52313a0208240fc39e9eae23
     maintainers:
@@ -266,7 +279,7 @@ entries:
     version: 1.1.0
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2025-11-26T08:20:34.249011111Z"
+    created: "2025-11-26T08:24:04.423134239Z"
     description: Helm Chart for tabula, a csv web viewer.
     digest: 364e6eb976ca727d9cba8e19ecdd7e6e5fffc2b9bda6f4beb6506ae6e5785032
     maintainers:
@@ -279,7 +292,7 @@ entries:
     version: 1.0.0
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2025-11-26T08:20:34.248738932Z"
+    created: "2025-11-26T08:24:04.422838807Z"
     description: Helm Chart for tabula, a csv web viewer.
     digest: 99fffdfdcdbdeea47f0e78e84c56ba807b7ac4b858f511bde1f0dee6fd8af42a
     maintainers:
@@ -293,7 +306,7 @@ entries:
   webserver-controller:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2025-11-26T08:20:34.249837667Z"
+    created: "2025-11-26T08:24:04.423975712Z"
     description: A Helm chart for Kubernetes
     digest: cb4eedfe64fe92b5d077271cb55c9583a5ae68a4133ff022d56efbfd83c6b56a
     name: webserver-controller
@@ -301,4 +314,4 @@ entries:
     urls:
     - webserver-controller-0.1.0.tgz
     version: 0.1.0
-generated: "2025-11-26T08:20:34.23189306Z"
+generated: "2025-11-26T08:24:04.406225815Z"
